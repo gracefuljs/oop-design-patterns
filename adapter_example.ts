@@ -4,8 +4,8 @@ Think of a real life adapter that allows a three prong plug to use a two prong o
 This pattern seems to be the most useful for introducing an outside library to a fully established code base or to allow legacy code to function along with newer code.
 */
 
-/*In this scenario, Myrin, an elf mage, is trying to join a fighting tournament, but it requires the use of weapons. Myrin he doesn't fight that way, 
-but he still wants to participate, so he uses a staff-- an adapter than allows him to channel his magic use through a weapon.*/
+/*In this scenario, Myrin, an elf mage, is trying to join a fighting tournament, but it requires the use of weapons. Myrin doesn't fight that way, instead casting
+spells directly from his hands, but he still wants to participate, so he uses a staff-- an adapter than allows him to channel his magic use through a weapon.*/
 
 //The "target". The "two-prong plug" that has the functionality we need. 
 interface WeaponUser{
