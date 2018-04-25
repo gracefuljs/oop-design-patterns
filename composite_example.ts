@@ -1,6 +1,10 @@
-/*The Composite pattern allows you to treat individual objects or groupings of objects in the same way. The pattern does this by designing it so that a method called on an object will then call the same method on each of it's children, which will call the method on each of its children until we reach the end of the tree. Each class of children will have its own way of implementing the method.
+/*The Composite pattern allows you to treat individual objects or groupings of objects in the same way. The pattern does 
+this by designing it so that a method called on an object will then call the same method on each of it's children, which 
+will call the method on each of its children until we reach the end of the tree. Each class of children will have its own 
+way of implementing the method.
 
-In this scenario, we have an inventory that we are going to display. The inventory is broken up into smaller catagories which can be broken up into even smaller categories, which are broken into individual items. 
+In this scenario, we have an inventory that we are going to display. The inventory is broken up into smaller catagories 
+which can be broken up into even smaller categories, which are broken into individual items. 
 
 A program using the composite pattern won't care whether it's executing code on a item category or an item itself.
 */
